@@ -50,6 +50,7 @@ public class Employee implements Serializable, Comparable<Employee> {
 	 * FOREIGN KEY coming from EMPLOYEE_ROLE
 	 */
 	private EmployeeRole employeeRole;	
+	
 
 	public Employee() {}
 
@@ -63,7 +64,22 @@ public class Employee implements Serializable, Comparable<Employee> {
 		this.email = email;
 		this.employeeRole = employeeRole;
 	}
-
+	public Employee(String username) {
+		this.username = username;
+	}
+	public Employee(int id) {
+		this.id = id;
+	}
+	public Employee(String username, String password) {
+		this.username = username;
+		this.password = password;
+	}
+	public Employee(String firstName, String lastName, String username, String email) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.username = username;
+		this.email = email;
+	}
 	public int getId() {
 		return id;
 	}
@@ -177,6 +193,10 @@ public class Employee implements Serializable, Comparable<Employee> {
 
 	@Override
 	public String toString() {
+//		if(firstName==null) {
+//			return "Employee "+username;
+//			
+//		}
 		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", username=" + username
 				+ ", password=" + password + ", email=" + email + ", userRole=" + employeeRole + "]";
 	}

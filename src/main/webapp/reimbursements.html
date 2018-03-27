@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Account</title>
+
+    <link rel="icon" href="images/customer.ico" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    
+    <!-- Boostrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="css/our.css" />
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="home.do" class="navbar-brand"><strong id= "username">Home</strong></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>Operations</strong><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="myAccount.do">My Account</a></li>
+                        <li><a href="reimbursement.do">My Reimbursements</a></li>
+                        <li><a href="submitReimbursement.do"> Submit a Reimbursement</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav navbar-nav navbar-right">
+                <a href="logout.do" class="navbar-brand"><strong><small>Logout</small></strong></a>
+            </div>
+        </div>
+    </nav>
+    <div class="col-md-4 col-md-offset-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3>Account Info</h3>
+            </div>
+            <div class="form-group">
+                <input id="reimbursementID" name="reimbursementID" placeholder="ReimbursementID" class="form-control" />
+            </div>
+            <div id="reimbursementMessage"></div>
+            <p id="reimbursementInfo"></p>
+            <button id="checkID" class="btn btn-md btn-success btn-block">Look Up Reimbursement</button>
+            <div class="panel-footer">
+            </div>
+        </div>
+    </div>
+    <script src = "js/reimbursement.js"></script>
+</body>
+</html>

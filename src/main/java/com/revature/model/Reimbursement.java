@@ -90,6 +90,17 @@ public class Reimbursement implements Serializable, Comparable<Reimbursement> {
 		this.status = status;
 		this.type = type;
 	}
+	public Reimbursement(int id, LocalDateTime requested, double amount, String description,
+			Employee requester, Employee approver, ReimbursementStatus status, ReimbursementType type) {
+		this.id = id;
+		this.requested = requested;
+		this.amount = amount;
+		this.description = description;
+		this.requester = requester;
+		this.approver = approver;
+		this.status = status;
+		this.type = type;
+	}
 
 	public int getId() {
 		return id;

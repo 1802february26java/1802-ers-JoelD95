@@ -1,0 +1,892 @@
+2018-03-13 13:34:23 INFO  ConnectionUtil:21 - Connection Successful
+2018-03-15 21:07:01 TRACE EmployeeRepositoryjdbc:164 - Getting statement object in insert Celebrity
+2018-03-15 21:07:01 TRACE EmployeeRepositoryjdbc:167 - parameters for insertion of employee set.
+2018-03-15 21:07:01 ERROR EmployeeRepositoryjdbc:177 - Exception thrown while inserting new Employee
+java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.EmployeeRepositoryjdbc.getPasswordHash(EmployeeRepositoryjdbc.java:168)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:204)
+2018-03-15 21:18:01 TRACE EmployeeRepositoryjdbc:164 - Getting statement object in insert Celebrity
+2018-03-15 21:18:01 TRACE EmployeeRepositoryjdbc:167 - parameters for insertion of employee set.
+2018-03-15 21:18:02 ERROR EmployeeRepositoryjdbc:177 - Exception thrown while inserting new Employee
+java.sql.SQLSyntaxErrorException: ORA-00942: table or view does not exist
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.EmployeeRepositoryjdbc.getPasswordHash(EmployeeRepositoryjdbc.java:168)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:204)
+2018-03-15 21:18:59 TRACE EmployeeRepositoryjdbc:164 - Getting statement object in insert Celebrity
+2018-03-15 21:18:59 TRACE EmployeeRepositoryjdbc:167 - parameters for insertion of employee set.
+2018-03-15 21:19:01 ERROR EmployeeRepositoryjdbc:177 - Exception thrown while inserting new Employee
+java.sql.SQLException: Closed Resultset: getString
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getString(GeneratedScrollableResultSet.java:857)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.getPasswordHash(EmployeeRepositoryjdbc.java:170)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:204)
+2018-03-15 21:22:50 TRACE EmployeeRepositoryjdbc:164 - Getting statement object in insert Celebrity
+2018-03-15 21:22:51 TRACE EmployeeRepositoryjdbc:167 - parameters for insertion of employee set.
+2018-03-15 21:22:51 ERROR EmployeeRepositoryjdbc:177 - Exception thrown while inserting new Employee
+java.sql.SQLException: Closed Resultset: getString
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getString(GeneratedScrollableResultSet.java:857)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.getPasswordHash(EmployeeRepositoryjdbc.java:170)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:204)
+2018-03-15 21:24:01 TRACE EmployeeRepositoryjdbc:164 - Getting statement object in get password hash
+2018-03-15 21:24:01 TRACE EmployeeRepositoryjdbc:167 - parameters for insertion of employee set.
+2018-03-15 21:24:02 ERROR EmployeeRepositoryjdbc:177 - Exception thrown while inserting new Employee
+java.sql.SQLException: Closed Resultset: getString
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getString(GeneratedScrollableResultSet.java:857)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.getPasswordHash(EmployeeRepositoryjdbc.java:170)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:204)
+2018-03-15 21:26:47 TRACE EmployeeRepositoryjdbc:164 - Getting statement object in get password hash
+2018-03-15 21:26:47 TRACE EmployeeRepositoryjdbc:167 - parameters for insertion of employee set.
+2018-03-15 21:26:47 ERROR EmployeeRepositoryjdbc:177 - Exception thrown while inserting new Employee
+java.sql.SQLException: ResultSet.next was not called
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getString(GeneratedScrollableResultSet.java:874)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.getPasswordHash(EmployeeRepositoryjdbc.java:170)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:204)
+2018-03-15 21:27:52 TRACE EmployeeRepositoryjdbc:164 - Getting statement object in get password hash
+2018-03-15 21:27:52 TRACE EmployeeRepositoryjdbc:167 - parameters for insertion of employee set.
+2018-03-17 16:30:43 TRACE EmployeeRepositoryjdbc:238 - parameters for deleting employee token
+2018-03-17 16:30:44 ERROR EmployeeRepositoryjdbc:254 - Exception thrown while deleting Token
+java.sql.SQLException: Closed Resultset: getInt
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getInt(GeneratedScrollableResultSet.java:497)
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350)
+	at com.revature.repository.EmployeeRepositoryjdbc.selectEmployeeToken(EmployeeRepositoryjdbc.java:244)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:264)
+2018-03-17 16:31:09 TRACE EmployeeRepositoryjdbc:238 - parameters for deleting employee token
+2018-03-17 16:32:03 TRACE EmployeeRepositoryjdbc:238 - parameters for selecting employee token
+2018-03-17 16:32:03 ERROR EmployeeRepositoryjdbc:249 - problem
+2018-03-17 16:32:10 TRACE EmployeeRepositoryjdbc:238 - parameters for selecting employee token
+2018-03-17 16:33:46 TRACE EmployeeRepositoryjdbc:238 - parameters for selecting employee token
+2018-03-17 16:34:45 TRACE EmployeeRepositoryjdbc:238 - parameters for selecting employee token
+2018-03-17 16:34:46 ERROR EmployeeRepositoryjdbc:254 - Exception thrown while deleting Token
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.selectEmployeeToken(EmployeeRepositoryjdbc.java:245)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:264)
+2018-03-17 16:34:51 TRACE EmployeeRepositoryjdbc:238 - parameters for selecting employee token
+2018-03-17 16:36:38 TRACE EmployeeRepositoryjdbc:112 - Getting statement object in get user by username
+2018-03-17 16:36:38 ERROR EmployeeRepositoryjdbc:128 - Error while selecting specified user
+2018-03-17 16:37:45 TRACE EmployeeRepositoryjdbc:112 - Getting statement object in get user by username
+2018-03-17 16:37:46 ERROR EmployeeRepositoryjdbc:128 - Error while selecting specified user
+2018-03-17 16:38:07 TRACE EmployeeRepositoryjdbc:112 - Getting statement object in get user by username
+2018-03-17 16:38:07 ERROR EmployeeRepositoryjdbc:128 - Error while selecting specified user
+java.sql.SQLSyntaxErrorException: ORA-00904: "USERNAME": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.EmployeeRepositoryjdbc.select(EmployeeRepositoryjdbc.java:115)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:264)
+2018-03-17 16:39:12 TRACE EmployeeRepositoryjdbc:112 - Getting statement object in get user by username
+2018-03-17 16:39:12 ERROR EmployeeRepositoryjdbc:128 - Error while selecting specified user
+java.sql.SQLSyntaxErrorException: ORA-00904: "USERNAME": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.EmployeeRepositoryjdbc.select(EmployeeRepositoryjdbc.java:115)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:264)
+2018-03-17 16:39:55 TRACE EmployeeRepositoryjdbc:112 - Getting statement object in get user by username
+2018-03-17 16:39:55 ERROR EmployeeRepositoryjdbc:128 - Error while selecting specified user
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.select(EmployeeRepositoryjdbc.java:119)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:264)
+2018-03-17 16:41:02 TRACE EmployeeRepositoryjdbc:112 - Getting statement object in get user by username
+2018-03-17 16:47:56 TRACE EmployeeRepositoryjdbc:112 - Getting statement object in get user by username
+2018-03-17 16:56:35 TRACE EmployeeRepositoryjdbc:112 - Getting statement object in get user by username
+2018-03-17 17:03:20 TRACE EmployeeRepositoryjdbc:86 - Getting statement object in get user by userID
+2018-03-17 17:17:57 TRACE EmployeeRepositoryjdbc:56 - Getting statement object in update Employee
+2018-03-17 17:18:42 TRACE EmployeeRepositoryjdbc:56 - Getting statement object in update Employee
+2018-03-17 17:18:42 TRACE EmployeeRepositoryjdbc:65 - parameters for updating an employee.
+2018-03-17 17:18:42 ERROR EmployeeRepositoryjdbc:74 - Exception thrown while updating Employee
+java.sql.SQLException: ORA-01407: cannot update ("ERS_DB"."USER_T"."U_LASTNAME") to NULL
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.EmployeeRepositoryjdbc.update(EmployeeRepositoryjdbc.java:66)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:265)
+2018-03-17 17:30:22 TRACE EmployeeRepositoryjdbc:85 - Getting statement object in get user by userID
+2018-03-17 17:30:23 TRACE EmployeeRepositoryjdbc:56 - Getting statement object in update Employee
+2018-03-17 17:30:23 TRACE EmployeeRepositoryjdbc:65 - parameters for updating an employee.
+2018-03-17 17:35:33 TRACE EmployeeRepositoryjdbc:85 - Getting statement object in get user by userID
+2018-03-17 17:35:33 TRACE EmployeeRepositoryjdbc:56 - Getting statement object in update Employee
+2018-03-17 17:35:33 TRACE EmployeeRepositoryjdbc:65 - parameters for updating an employee.
+2018-03-17 17:35:34 TRACE EmployeeRepositoryjdbc:85 - Getting statement object in get user by userID
+2018-03-17 17:55:05 TRACE EmployeeRepositoryjdbc:86 - Getting statement object in get user by userID
+2018-03-17 17:55:05 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert Celebrity
+2018-03-17 17:55:05 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 17:55:06 ERROR EmployeeRepositoryjdbc:46 - Exception thrown while inserting new Employee
+java.sql.SQLIntegrityConstraintViolationException: ORA-02291: integrity constraint (ERS_DB.FK_USER_ROLE) violated - parent key not found
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.EmployeeRepositoryjdbc.insert(EmployeeRepositoryjdbc.java:37)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:273)
+2018-03-17 17:55:06 TRACE EmployeeRepositoryjdbc:86 - Getting statement object in get user by userID
+2018-03-17 17:56:06 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert Celebrity
+2018-03-17 17:56:06 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 17:56:07 ERROR EmployeeRepositoryjdbc:46 - Exception thrown while inserting new Employee
+java.sql.SQLIntegrityConstraintViolationException: ORA-02291: integrity constraint (ERS_DB.FK_USER_ROLE) violated - parent key not found
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.EmployeeRepositoryjdbc.insert(EmployeeRepositoryjdbc.java:37)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:272)
+2018-03-17 18:03:57 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:03:57 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:10:39 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:10:39 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:15:18 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:20:23 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:20:23 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:23:59 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:23:59 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:27:20 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:27:20 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:27:39 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:27:40 TRACE EmployeeRepositoryjdbc:37 - parameters for insertion of employee set.
+2018-03-17 18:42:51 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:42:51 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:44:54 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:44:54 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:45:26 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:45:27 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:45:28 ERROR EmployeeRepositoryjdbc:44 - Exception thrown while inserting new Employee
+java.sql.SQLIntegrityConstraintViolationException: ORA-01400: cannot insert NULL into ("ERS_DB"."USER_T"."UR_ID")
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.EmployeeRepositoryjdbc.insert(EmployeeRepositoryjdbc.java:37)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:272)
+2018-03-17 18:46:39 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:46:39 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:48:45 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:48:45 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:48:45 ERROR EmployeeRepositoryjdbc:44 - Exception thrown while inserting new Employee
+java.sql.SQLIntegrityConstraintViolationException: ORA-01400: cannot insert NULL into ("ERS_DB"."USER_T"."UR_ID")
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.EmployeeRepositoryjdbc.insert(EmployeeRepositoryjdbc.java:37)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:272)
+2018-03-17 18:49:01 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:49:01 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 18:50:11 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 18:50:12 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 19:47:39 TRACE EmployeeRepositoryjdbc:136 - Getting statement object in get user by username
+2018-03-17 19:51:53 TRACE EmployeeRepositoryjdbc:27 - Getting statement object in insert employee
+2018-03-17 19:51:53 TRACE EmployeeRepositoryjdbc:36 - parameters for insertion of employee set.
+2018-03-17 19:53:14 TRACE EmployeeRepositoryjdbc:135 - Getting statement object in get all users
+2018-03-17 19:53:14 INFO  EmployeeRepositoryjdbc:271 - 
+2018-03-17 19:54:00 TRACE EmployeeRepositoryjdbc:135 - Getting statement object in get all users
+2018-03-17 19:54:01 TRACE EmployeeRepositoryjdbc:271 - 
+2018-03-17 19:54:56 TRACE EmployeeRepositoryjdbc:135 - Getting statement object in get all users
+2018-03-17 19:54:57 TRACE EmployeeRepositoryjdbc:272 - [Employee [id=0, firstName=Heater, lastName=ALAGNA, username=PALAGNAJR, password=CFE456D83392A087DAF9DF95D5E18366, email=PETER.ALAGNA@REVATURE.COM, userRole=1], Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], Employee [id=2, firstName=Joel, lastName=DeJesus, username=JoelD1995, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus1995@gmail.com, userRole=1]]
+2018-03-17 20:03:27 TRACE EmployeeRepositoryjdbc:135 - Getting statement object in get all users
+2018-03-17 20:03:27 TRACE EmployeeRepositoryjdbc:272 - [Employee [id=0, firstName=Heater, lastName=ALAGNA, username=PALAGNAJR, password=CFE456D83392A087DAF9DF95D5E18366, email=PETER.ALAGNA@REVATURE.COM, userRole=1], Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], Employee [id=2, firstName=Joel, lastName=DeJesus, username=JoelD1995, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus1995@gmail.com, userRole=1]]
+2018-03-17 20:03:28 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-17 20:09:33 TRACE EmployeeRepositoryjdbc:135 - Getting statement object in get all users
+2018-03-17 20:09:33 TRACE EmployeeRepositoryjdbc:272 - [Employee [id=0, firstName=Heater, lastName=ALAGNA, username=PALAGNAJR, password=CFE456D83392A087DAF9DF95D5E18366, email=PETER.ALAGNA@REVATURE.COM, userRole=1], Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], Employee [id=2, firstName=Joel, lastName=DeJesus, username=JoelD1995, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus1995@gmail.com, userRole=1]]
+2018-03-17 20:09:34 TRACE EmployeeRepositoryjdbc:188 - Inserting Employee token
+2018-03-17 20:09:34 TRACE EmployeeRepositoryjdbc:192 - parameters for insertion of employee token.
+2018-03-17 20:09:34 ERROR EmployeeRepositoryjdbc:202 - Exception thrown while inserting new Token
+java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.EmployeeRepositoryjdbc.insertEmployeeToken(EmployeeRepositoryjdbc.java:193)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:273)
+2018-03-17 20:09:34 TRACE EmployeeRepositoryjdbc:273 - false
+2018-03-17 20:09:34 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-17 20:11:57 TRACE EmployeeRepositoryjdbc:135 - Getting statement object in get all users
+2018-03-17 20:11:57 TRACE EmployeeRepositoryjdbc:272 - [Employee [id=0, firstName=Heater, lastName=ALAGNA, username=PALAGNAJR, password=CFE456D83392A087DAF9DF95D5E18366, email=PETER.ALAGNA@REVATURE.COM, userRole=1], Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], Employee [id=2, firstName=Joel, lastName=DeJesus, username=JoelD1995, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus1995@gmail.com, userRole=1]]
+2018-03-17 20:11:58 TRACE EmployeeRepositoryjdbc:188 - Inserting Employee token
+2018-03-17 20:11:58 TRACE EmployeeRepositoryjdbc:192 - parameters for insertion of employee token.
+2018-03-17 20:11:58 INFO  EmployeeRepositoryjdbc:194 - token inserted sucessful
+2018-03-17 20:11:58 TRACE EmployeeRepositoryjdbc:273 - true
+2018-03-17 20:11:58 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-17 20:12:57 TRACE EmployeeRepositoryjdbc:188 - Inserting Employee token
+2018-03-17 20:12:57 TRACE EmployeeRepositoryjdbc:192 - parameters for insertion of employee token.
+2018-03-17 20:12:57 ERROR EmployeeRepositoryjdbc:202 - Exception thrown while inserting new Token
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (ERS_DB.PK_PASSWORD_RECOVERY) violated
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.EmployeeRepositoryjdbc.insertEmployeeToken(EmployeeRepositoryjdbc.java:193)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:273)
+2018-03-17 20:12:57 TRACE EmployeeRepositoryjdbc:273 - false
+2018-03-17 20:12:57 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-17 20:13:36 TRACE EmployeeRepositoryjdbc:188 - Inserting Employee token
+2018-03-17 20:13:36 TRACE EmployeeRepositoryjdbc:192 - parameters for insertion of employee token.
+2018-03-17 20:13:36 INFO  EmployeeRepositoryjdbc:194 - token inserted sucessful
+2018-03-17 20:13:36 TRACE EmployeeRepositoryjdbc:273 - true
+2018-03-17 20:13:37 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-17 20:14:08 TRACE EmployeeRepositoryjdbc:188 - Inserting Employee token
+2018-03-17 20:14:08 TRACE EmployeeRepositoryjdbc:192 - parameters for insertion of employee token.
+2018-03-17 20:14:08 INFO  EmployeeRepositoryjdbc:194 - token inserted sucessful
+2018-03-17 20:14:08 TRACE EmployeeRepositoryjdbc:273 - true
+2018-03-17 20:14:08 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-17 23:47:57 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-17 23:47:57 ERROR EmployeeRepositoryjdbc:254 - Exception thrown while deleting Token
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.selectEmployeeToken(EmployeeRepositoryjdbc.java:246)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:276)
+2018-03-17 23:48:20 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-17 23:48:20 ERROR EmployeeRepositoryjdbc:254 - Exception thrown while selecting Token
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.selectEmployeeToken(EmployeeRepositoryjdbc.java:246)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:276)
+2018-03-17 23:48:54 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-18 14:06:50 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-18 14:06:50 ERROR EmployeeRepositoryjdbc:255 - problem
+2018-03-18 14:07:09 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-18 14:07:10 ERROR EmployeeRepositoryjdbc:255 - problem
+2018-03-18 14:08:32 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-18 14:08:32 ERROR EmployeeRepositoryjdbc:260 - Exception thrown while selecting Token
+java.sql.SQLException: Invalid column index
+	at oracle.jdbc.driver.OraclePreparedStatement.setIntInternal(OraclePreparedStatement.java:5223)
+	at oracle.jdbc.driver.OraclePreparedStatement.setInt(OraclePreparedStatement.java:5210)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setInt(OraclePreparedStatementWrapper.java:209)
+	at com.revature.repository.EmployeeRepositoryjdbc.selectEmployeeToken(EmployeeRepositoryjdbc.java:238)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:282)
+2018-03-18 14:08:51 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-18 14:08:52 ERROR EmployeeRepositoryjdbc:260 - Exception thrown while selecting Token
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350)
+	at com.revature.repository.EmployeeRepositoryjdbc.selectEmployeeToken(EmployeeRepositoryjdbc.java:246)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:282)
+2018-03-18 14:09:17 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-18 14:10:48 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-18 14:10:49 ERROR EmployeeRepositoryjdbc:255 - problem
+2018-03-18 14:11:05 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-19 13:12:46 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:13:53 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:14:21 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:14:22 ERROR ReimbursementRepositoryjdbc:46 - Exception thrown while inserting new Employee
+java.sql.SQLException: Invalid column type
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectCritical(OraclePreparedStatement.java:9470)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:8954)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:9766)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObject(OraclePreparedStatement.java:9743)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setObject(OraclePreparedStatementWrapper.java:241)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:34)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:118)
+2018-03-19 13:14:22 TRACE ReimbursementRepositoryjdbc:118 - false
+2018-03-19 13:17:08 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:17:08 ERROR ReimbursementRepositoryjdbc:45 - Exception thrown while inserting new reimbursement
+java.sql.SQLException: Invalid column type
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectCritical(OraclePreparedStatement.java:9470)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:8954)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:9766)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObject(OraclePreparedStatement.java:9743)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setObject(OraclePreparedStatementWrapper.java:241)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:33)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:116)
+2018-03-19 13:17:08 TRACE ReimbursementRepositoryjdbc:116 - false
+2018-03-19 13:18:19 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:18:20 ERROR ReimbursementRepositoryjdbc:45 - Exception thrown while inserting new reimbursement
+java.sql.SQLException: Invalid column type
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectCritical(OraclePreparedStatement.java:9470)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:8954)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObjectInternal(OraclePreparedStatement.java:9766)
+	at oracle.jdbc.driver.OraclePreparedStatement.setObject(OraclePreparedStatement.java:9743)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setObject(OraclePreparedStatementWrapper.java:241)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:35)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:116)
+2018-03-19 13:18:20 TRACE ReimbursementRepositoryjdbc:116 - false
+2018-03-19 13:20:31 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:23:10 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:23:10 TRACE ReimbursementRepositoryjdbc:37 - parameters for insertion of reimbursement set.
+2018-03-19 13:23:10 ERROR ReimbursementRepositoryjdbc:45 - Exception thrown while inserting new reimbursement
+java.sql.SQLSyntaxErrorException: ORA-00947: not enough values
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:38)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:117)
+2018-03-19 13:23:10 TRACE ReimbursementRepositoryjdbc:117 - false
+2018-03-19 13:23:40 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:23:40 TRACE ReimbursementRepositoryjdbc:37 - parameters for insertion of reimbursement set.
+2018-03-19 13:23:40 ERROR ReimbursementRepositoryjdbc:45 - Exception thrown while inserting new reimbursement
+java.sql.SQLException: Missing IN or OUT parameter at index:: 9
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1878)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3815)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:38)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:117)
+2018-03-19 13:23:40 TRACE ReimbursementRepositoryjdbc:117 - false
+2018-03-19 13:25:28 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:25:28 TRACE ReimbursementRepositoryjdbc:37 - parameters for insertion of reimbursement set.
+2018-03-19 13:25:29 ERROR ReimbursementRepositoryjdbc:45 - Exception thrown while inserting new reimbursement
+java.sql.SQLException: Missing IN or OUT parameter at index:: 9
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1878)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3815)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:38)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:117)
+2018-03-19 13:25:29 TRACE ReimbursementRepositoryjdbc:117 - false
+2018-03-19 13:27:58 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:27:58 TRACE ReimbursementRepositoryjdbc:37 - parameters for insertion of reimbursement set.
+2018-03-19 13:27:58 ERROR ReimbursementRepositoryjdbc:45 - Exception thrown while inserting new reimbursement
+java.sql.SQLException: Missing IN or OUT parameter at index:: 9
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1878)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3815)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:38)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:117)
+2018-03-19 13:27:58 TRACE ReimbursementRepositoryjdbc:117 - false
+2018-03-19 13:32:05 TRACE ReimbursementRepositoryjdbc:27 - Getting statement object in insert reimbursement
+2018-03-19 13:32:06 TRACE ReimbursementRepositoryjdbc:37 - parameters for insertion of reimbursement set.
+2018-03-19 13:32:06 ERROR ReimbursementRepositoryjdbc:45 - Exception thrown while inserting new reimbursement
+java.sql.SQLDataException: ORA-01843: not a valid month
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:38)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:117)
+2018-03-19 13:32:06 TRACE ReimbursementRepositoryjdbc:117 - false
+2018-03-19 13:42:04 TRACE ReimbursementRepositoryjdbc:28 - Getting statement object in insert reimbursement
+2018-03-19 13:42:04 TRACE ReimbursementRepositoryjdbc:38 - parameters for insertion of reimbursement set.
+2018-03-19 13:42:04 TRACE ReimbursementRepositoryjdbc:118 - true
+2018-03-19 13:55:03 TRACE ReimbursementRepositoryjdbc:56 - Getting statement object in insert reimbursement
+2018-03-19 13:55:03 TRACE ReimbursementRepositoryjdbc:60 - parameters for insertion of reimbursement set.
+2018-03-19 13:59:13 TRACE ReimbursementRepositoryjdbc:56 - Getting statement object in update reimbursement
+2018-03-19 13:59:13 TRACE ReimbursementRepositoryjdbc:60 - parameters for insertion of reimbursement set.
+2018-03-19 14:01:49 TRACE ReimbursementRepositoryjdbc:56 - Getting statement object in update reimbursement
+2018-03-19 14:01:49 TRACE ReimbursementRepositoryjdbc:60 - parameters for upadating reimbursement set.
+2018-03-19 14:03:46 TRACE ReimbursementRepositoryjdbc:56 - Getting statement object in update reimbursement
+2018-03-19 14:03:46 TRACE ReimbursementRepositoryjdbc:60 - parameters for upadating reimbursement set.
+2018-03-19 14:03:46 TRACE ReimbursementRepositoryjdbc:139 - true
+2018-03-19 14:49:15 TRACE ReimbursementRepositoryjdbc:56 - Getting statement object in update reimbursement
+2018-03-19 14:49:15 TRACE ReimbursementRepositoryjdbc:60 - parameters for upadating reimbursement set.
+2018-03-19 14:49:15 ERROR ReimbursementRepositoryjdbc:68 - Exception thrown while updating reimbursement
+java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.ReimbursementRepositoryjdbc.update(ReimbursementRepositoryjdbc.java:61)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:160)
+2018-03-19 14:49:15 TRACE ReimbursementRepositoryjdbc:160 - false
+2018-03-19 14:58:25 TRACE ReimbursementRepositoryjdbc:56 - Getting statement object in update reimbursement
+2018-03-19 14:58:26 TRACE ReimbursementRepositoryjdbc:60 - parameters for upadating reimbursement set.
+2018-03-19 15:01:01 TRACE ReimbursementRepositoryjdbc:56 - Getting statement object in update reimbursement
+2018-03-19 15:01:02 TRACE ReimbursementRepositoryjdbc:60 - parameters for upadating reimbursement set.
+2018-03-19 15:01:02 TRACE ReimbursementRepositoryjdbc:160 - true
+2018-03-19 15:29:45 TRACE ReimbursementRepositoryjdbc:87 - Getting statement object in update reimbursement
+2018-03-19 15:29:45 TRACE ReimbursementRepositoryjdbc:90 - parameters for upadating reimbursement set.
+2018-03-19 15:29:45 ERROR ReimbursementRepositoryjdbc:124 - Exception thrown while updating reimbursement
+java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:91)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:190)
+2018-03-19 15:29:45 TRACE ReimbursementRepositoryjdbc:190 - 
+2018-03-19 15:32:25 TRACE ReimbursementRepositoryjdbc:87 - Getting statement object in select reimbursement
+2018-03-19 15:32:25 TRACE ReimbursementRepositoryjdbc:90 - parameters for selecting reimbursement set.
+2018-03-19 15:32:25 ERROR ReimbursementRepositoryjdbc:124 - Exception thrown while selecting reimbursement
+java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:91)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:190)
+2018-03-19 15:32:25 TRACE ReimbursementRepositoryjdbc:190 - 
+2018-03-19 15:33:02 TRACE ReimbursementRepositoryjdbc:87 - Getting statement object in select reimbursement
+2018-03-19 15:33:02 TRACE ReimbursementRepositoryjdbc:90 - parameters for selecting reimbursement set.
+2018-03-19 15:33:02 ERROR ReimbursementRepositoryjdbc:124 - Exception thrown while selecting reimbursement
+java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:91)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:190)
+2018-03-19 15:33:02 TRACE ReimbursementRepositoryjdbc:190 - 
+2018-03-19 15:33:25 TRACE ReimbursementRepositoryjdbc:87 - Getting statement object in select reimbursement
+2018-03-19 15:33:25 TRACE ReimbursementRepositoryjdbc:90 - parameters for selecting reimbursement set.
+2018-03-19 15:33:25 ERROR ReimbursementRepositoryjdbc:124 - Exception thrown while selecting reimbursement
+java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:91)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:190)
+2018-03-19 15:33:25 TRACE ReimbursementRepositoryjdbc:190 - 
+2018-03-19 15:37:01 TRACE ReimbursementRepositoryjdbc:86 - Getting statement object in select reimbursement
+2018-03-19 15:37:01 TRACE ReimbursementRepositoryjdbc:89 - parameters for selecting reimbursement set.
+2018-03-19 15:37:01 ERROR ReimbursementRepositoryjdbc:123 - Exception thrown while selecting reimbursement
+java.sql.SQLSyntaxErrorException: ORA-00907: missing right parenthesis
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:90)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:189)
+2018-03-19 15:37:01 TRACE ReimbursementRepositoryjdbc:189 - 
+2018-03-19 15:38:05 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 15:38:05 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 15:38:05 ERROR ReimbursementRepositoryjdbc:117 - Exception thrown while selecting reimbursement
+java.sql.SQLException: Closed Resultset: getInt
+	at oracle.jdbc.driver.GeneratedScrollableResultSet.getInt(GeneratedScrollableResultSet.java:497)
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:87)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:183)
+2018-03-19 15:38:05 TRACE ReimbursementRepositoryjdbc:183 - 
+2018-03-19 15:39:22 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 15:39:22 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 15:39:22 ERROR ReimbursementRepositoryjdbc:117 - Exception thrown while selecting reimbursement
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:92)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:183)
+2018-03-19 15:39:22 TRACE ReimbursementRepositoryjdbc:183 - 
+2018-03-19 15:45:01 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 15:45:01 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 15:45:01 ERROR ReimbursementRepositoryjdbc:110 - Exception thrown while selecting reimbursement
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:93)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:176)
+2018-03-19 15:45:01 TRACE ReimbursementRepositoryjdbc:176 - 
+2018-03-19 15:49:40 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 15:49:40 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 15:49:40 ERROR ReimbursementRepositoryjdbc:101 - Exception thrown while selecting reimbursement
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:93)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:167)
+2018-03-19 15:49:40 TRACE ReimbursementRepositoryjdbc:167 - 
+2018-03-19 15:50:31 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 15:50:31 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 15:50:31 TRACE ReimbursementRepositoryjdbc:167 - Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=2018-03-19T15:01:02.069315, amount=55.0, description=testing my method, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=0], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]
+2018-03-19 15:51:43 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 15:51:43 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 15:52:11 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 15:52:12 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 16:01:45 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 16:01:45 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 16:14:07 TRACE EmployeeRepositoryjdbc:236 - parameters for selecting employee token
+2018-03-19 16:14:14 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 16:14:14 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 16:15:22 TRACE ReimbursementRepositoryjdbc:80 - Getting statement object in select reimbursement
+2018-03-19 16:15:22 TRACE ReimbursementRepositoryjdbc:83 - parameters for selecting reimbursement set.
+2018-03-19 16:41:30 TRACE ReimbursementRepositoryjdbc:126 - Getting statement object in select pending from certain user.
+2018-03-19 16:41:30 ERROR ReimbursementRepositoryjdbc:146 - Exception thrown while selecting pending reimbursements from a certain user
+java.sql.SQLException: Invalid column index
+	at oracle.jdbc.driver.OraclePreparedStatement.setIntInternal(OraclePreparedStatement.java:5223)
+	at oracle.jdbc.driver.OraclePreparedStatement.setInt(OraclePreparedStatement.java:5210)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setInt(OraclePreparedStatementWrapper.java:209)
+	at com.revature.repository.ReimbursementRepositoryjdbc.selectPending(ReimbursementRepositoryjdbc.java:128)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:207)
+2018-03-19 16:41:30 TRACE ReimbursementRepositoryjdbc:207 - 
+2018-03-19 16:42:41 TRACE ReimbursementRepositoryjdbc:126 - Getting statement object in select pending from certain user.
+2018-03-19 16:42:41 TRACE ReimbursementRepositoryjdbc:130 - parameters for selecting pending reimbursements from a certain user.
+2018-03-19 16:42:41 TRACE ReimbursementRepositoryjdbc:207 - []
+2018-03-19 16:43:29 TRACE ReimbursementRepositoryjdbc:126 - Getting statement object in select pending from certain user.
+2018-03-19 16:43:30 TRACE ReimbursementRepositoryjdbc:130 - parameters for selecting pending reimbursements from a certain user.
+2018-03-19 16:43:30 ERROR ReimbursementRepositoryjdbc:146 - Exception thrown while selecting pending reimbursements from a certain user
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.ReimbursementRepositoryjdbc.selectPending(ReimbursementRepositoryjdbc.java:139)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:207)
+2018-03-19 16:43:30 TRACE ReimbursementRepositoryjdbc:207 - 
+2018-03-19 16:46:39 TRACE ReimbursementRepositoryjdbc:126 - Getting statement object in select pending from certain user.
+2018-03-19 16:46:39 TRACE ReimbursementRepositoryjdbc:130 - parameters for selecting pending reimbursements from a certain user.
+2018-03-19 16:55:54 TRACE ReimbursementRepositoryjdbc:126 - Getting statement object in select pending from certain user.
+2018-03-19 16:55:54 TRACE ReimbursementRepositoryjdbc:130 - parameters for selecting pending reimbursements from a certain user.
+2018-03-19 16:55:54 TRACE ReimbursementRepositoryjdbc:207 - [Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=null, amount=55.0, description=testing my method, requester=Employee [id=0, firstName=null, lastName=null, username=1, password=null, email=null, userRole=0], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=0, firstName=null, lastName=null, username=1, password=null, email=null, userRole=0], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=0, firstName=null, lastName=null, username=1, password=null, email=null, userRole=0], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-19 16:57:01 TRACE ReimbursementRepositoryjdbc:126 - Getting statement object in select pending from certain user.
+2018-03-19 16:57:01 TRACE ReimbursementRepositoryjdbc:130 - parameters for selecting pending reimbursements from a certain user.
+2018-03-19 16:57:01 TRACE ReimbursementRepositoryjdbc:207 - [Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=null, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-19 20:41:18 TRACE ReimbursementRepositoryjdbc:126 - Getting statement object in select pending from certain user.
+2018-03-19 20:41:19 TRACE ReimbursementRepositoryjdbc:130 - parameters for selecting pending reimbursements from a certain user.
+2018-03-19 20:41:19 ERROR ReimbursementRepositoryjdbc:152 - Exception thrown while selecting pending reimbursements from a certain user
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350)
+	at com.revature.repository.ReimbursementRepositoryjdbc.selectPending(ReimbursementRepositoryjdbc.java:139)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:213)
+2018-03-19 20:41:19 TRACE ReimbursementRepositoryjdbc:213 - 
+2018-03-19 20:46:05 TRACE ReimbursementRepositoryjdbc:118 - Getting statement object in select pending from certain user.
+2018-03-19 20:46:05 ERROR ReimbursementRepositoryjdbc:144 - Exception thrown while selecting pending reimbursements from a certain user
+java.sql.SQLException: Invalid column index
+	at oracle.jdbc.driver.OraclePreparedStatement.setIntInternal(OraclePreparedStatement.java:5223)
+	at oracle.jdbc.driver.OraclePreparedStatement.setInt(OraclePreparedStatement.java:5210)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setInt(OraclePreparedStatementWrapper.java:209)
+	at com.revature.repository.ReimbursementRepositoryjdbc.selectPending(ReimbursementRepositoryjdbc.java:120)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:205)
+2018-03-19 20:46:05 TRACE ReimbursementRepositoryjdbc:205 - 
+2018-03-19 21:23:30 TRACE ReimbursementRepositoryjdbc:118 - Getting statement object in select pending from certain user.
+2018-03-19 21:23:30 ERROR ReimbursementRepositoryjdbc:144 - Exception thrown while selecting pending reimbursements from a certain user
+java.sql.SQLException: Invalid column index
+	at oracle.jdbc.driver.OraclePreparedStatement.setIntInternal(OraclePreparedStatement.java:5223)
+	at oracle.jdbc.driver.OraclePreparedStatement.setInt(OraclePreparedStatement.java:5210)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setInt(OraclePreparedStatementWrapper.java:209)
+	at com.revature.repository.ReimbursementRepositoryjdbc.selectPending(ReimbursementRepositoryjdbc.java:120)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:205)
+2018-03-19 21:23:30 TRACE ReimbursementRepositoryjdbc:205 - 
+2018-03-19 21:23:58 TRACE ReimbursementRepositoryjdbc:118 - Getting statement object in select pending from certain user.
+2018-03-19 21:23:59 TRACE ReimbursementRepositoryjdbc:122 - parameters for selecting pending reimbursements from a certain user.
+2018-03-19 21:23:59 TRACE ReimbursementRepositoryjdbc:205 - [Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=null, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-20 11:00:31 TRACE ReimbursementRepositoryjdbc:118 - Getting statement object in select pending from certain user.
+2018-03-20 11:00:32 TRACE ReimbursementRepositoryjdbc:122 - parameters for selecting pending reimbursements from a certain user.
+2018-03-20 11:00:32 TRACE ReimbursementRepositoryjdbc:205 - [Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=null, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-20 21:14:08 TRACE ReimbursementRepositoryjdbc:118 - Getting statement object in select pending from certain user.
+2018-03-20 21:14:08 TRACE ReimbursementRepositoryjdbc:122 - parameters for selecting pending reimbursements from a certain user.
+2018-03-20 21:14:08 TRACE ReimbursementRepositoryjdbc:241 - [Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=null, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-20 22:17:41 TRACE ReimbursementRepositoryjdbc:118 - Getting statement object in select pending from certain user.
+2018-03-20 22:17:41 TRACE ReimbursementRepositoryjdbc:122 - parameters for selecting pending reimbursements from a certain user.
+2018-03-20 22:17:41 TRACE ReimbursementRepositoryjdbc:276 - [Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=null, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-20 22:27:07 TRACE ReimbursementRepositoryjdbc:160 - Getting statement object in select pending from certain user.
+2018-03-20 22:27:07 TRACE ReimbursementRepositoryjdbc:164 - parameters for selecting pending reimbursements from a certain user.
+2018-03-20 22:27:07 TRACE ReimbursementRepositoryjdbc:311 - [Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=null, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-20 22:50:22 TRACE ReimbursementRepositoryjdbc:244 - Getting statement object in select pending from certain user.
+2018-03-20 22:50:22 TRACE ReimbursementRepositoryjdbc:247 - parameters for selecting pending reimbursements from a certain user.
+2018-03-20 22:50:23 TRACE ReimbursementRepositoryjdbc:330 - [Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=2018-03-19T15:01:02.069315, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-20 22:50:37 TRACE ReimbursementRepositoryjdbc:202 - Getting statement object in select pending from certain user.
+2018-03-20 22:50:37 TRACE ReimbursementRepositoryjdbc:205 - parameters for selecting pending reimbursements from a certain user.
+2018-03-20 22:50:37 TRACE ReimbursementRepositoryjdbc:330 - [Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=Joel, lastName=DeJesus, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus95@gmail.com, userRole=1], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=0], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-20 22:50:58 TRACE ReimbursementRepositoryjdbc:283 - Getting statement object in select pending from certain user.
+2018-03-20 22:50:59 TRACE ReimbursementRepositoryjdbc:286 - parameters for selecting pending reimbursements from a certain user.
+2018-03-20 22:50:59 TRACE ReimbursementRepositoryjdbc:330 - [ReimbursementType [id=0, type=OTHER]]
+2018-03-20 22:51:23 TRACE ReimbursementRepositoryjdbc:282 - Getting statement object in select pending from certain user.
+2018-03-20 22:51:23 TRACE ReimbursementRepositoryjdbc:285 - parameters for selecting pending reimbursements from a certain user.
+2018-03-20 22:51:23 TRACE ReimbursementRepositoryjdbc:329 - [ReimbursementType [id=0, type=OTHER], ReimbursementType [id=0, type=OTHER], ReimbursementType [id=0, type=OTHER]]
+2018-03-21 19:18:44 TRACE EmployeeRepositoryjdbc:163 - Getting statement object in get password hash
+2018-03-21 19:18:45 TRACE EmployeeRepositoryjdbc:166 - parameters for insertion of employee set.
+2018-03-21 19:18:46 ERROR EmployeeRepositoryjdbc:176 - Exception thrown while getting passhash
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.getPasswordHash(EmployeeRepositoryjdbc.java:169)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:279)
+2018-03-21 19:24:32 TRACE EmployeeRepositoryjdbc:163 - Getting statement object in get password hash
+2018-03-21 19:24:32 TRACE EmployeeRepositoryjdbc:166 - parameters for insertion of employee set.
+2018-03-21 19:25:35 TRACE EmployeeRepositoryjdbc:163 - Getting statement object in get password hash
+2018-03-21 19:25:36 TRACE EmployeeRepositoryjdbc:166 - parameters for insertion of employee set.
+2018-03-21 19:26:25 TRACE EmployeeRepositoryjdbc:163 - Getting statement object in get password hash
+2018-03-21 19:26:25 TRACE EmployeeRepositoryjdbc:166 - parameters for insertion of employee set.
+2018-03-22 13:19:50 TRACE EmployeeRepositoryjdbc:173 - Getting statement object in get password hash
+2018-03-22 13:19:50 TRACE EmployeeRepositoryjdbc:176 - parameters for insertion of employee set.
+2018-03-22 13:19:51 TRACE EmployeeRepositoryjdbc:281 - parameters for deleting employee token
+2018-03-22 13:19:52 ERROR EmployeeRepositoryjdbc:288 - problem
+2018-03-22 13:19:52 TRACE EmployeeRepositoryjdbc:319 - false
+2018-03-22 13:20:32 TRACE EmployeeRepositoryjdbc:173 - Getting statement object in get password hash
+2018-03-22 13:20:32 TRACE EmployeeRepositoryjdbc:176 - parameters for insertion of employee set.
+2018-03-22 13:20:33 TRACE EmployeeRepositoryjdbc:281 - parameters for deleting employee token
+2018-03-22 13:20:33 ERROR EmployeeRepositoryjdbc:288 - problem
+2018-03-22 13:20:33 TRACE EmployeeRepositoryjdbc:319 - false
+2018-03-22 13:21:15 TRACE EmployeeRepositoryjdbc:173 - Getting statement object in get password hash
+2018-03-22 13:21:15 TRACE EmployeeRepositoryjdbc:176 - parameters for insertion of employee set.
+2018-03-22 13:21:15 TRACE EmployeeRepositoryjdbc:281 - parameters for checking username
+2018-03-22 13:21:16 TRACE EmployeeRepositoryjdbc:317 - false
+2018-03-22 13:21:26 TRACE EmployeeRepositoryjdbc:281 - parameters for checking username
+2018-03-22 13:21:26 TRACE EmployeeRepositoryjdbc:317 - false
+2018-03-22 13:21:41 TRACE EmployeeRepositoryjdbc:281 - parameters for checking username
+2018-03-22 13:21:41 TRACE EmployeeRepositoryjdbc:317 - true
+2018-03-22 20:34:57 TRACE EmployeeRepositoryjdbc:302 - Getting statement object in update Employee
+2018-03-22 20:34:57 TRACE EmployeeRepositoryjdbc:306 - parameters for updating an employee.
+2018-03-22 20:34:58 TRACE EmployeeRepositoryjdbc:341 - true
+2018-03-23 21:54:46 TRACE EmployeeRepositoryjdbc:302 - Getting statement object in update Employee
+2018-03-23 21:54:46 TRACE EmployeeRepositoryjdbc:306 - parameters for updating an employee.
+2018-03-23 21:54:46 TRACE EmployeeRepositoryjdbc:341 - true
+2018-03-23 23:12:06 TRACE EmployeeRepositoryjdbc:172 - Getting statement object in get password hash
+2018-03-23 23:12:06 TRACE EmployeeRepositoryjdbc:175 - parameters for insertion of employee set.
+2018-03-24 14:44:23 TRACE EmployeeRepositoryjdbc:179 - Getting statement object in get password hash
+2018-03-24 14:44:23 TRACE EmployeeRepositoryjdbc:182 - parameters for insertion of employee set.
+2018-03-24 14:44:24 TRACE EmployeeRepositoryjdbc:351 - false
+2018-03-24 14:54:24 TRACE EmployeeRepositoryjdbc:351 - true
+2018-03-24 14:54:52 TRACE EmployeeRepositoryjdbc:351 - -1424436592
+2018-03-24 14:55:02 TRACE EmployeeRepositoryjdbc:351 - -1424436592
+2018-03-24 14:55:05 TRACE EmployeeRepositoryjdbc:351 - -1424436592
+2018-03-24 14:56:25 TRACE EmployeeRepositoryjdbc:179 - Getting statement object in get password hash
+2018-03-24 14:56:25 TRACE EmployeeRepositoryjdbc:182 - parameters for insertion of employee set.
+2018-03-24 14:56:25 TRACE EmployeeRepositoryjdbc:343 - false
+2018-03-24 16:18:20 TRACE EmployeeRepositoryjdbc:343 - EmployeeRole [id=1, type=employee]
+2018-03-26 14:35:21 TRACE ReimbursementRepositoryjdbc:91 - Getting statement object in select reimbursement
+2018-03-26 14:35:21 TRACE ReimbursementRepositoryjdbc:94 - parameters for selecting reimbursement set.
+2018-03-26 14:35:21 ERROR ReimbursementRepositoryjdbc:131 - Exception thrown while selecting reimbursement
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:104)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:332)
+2018-03-26 14:35:21 TRACE ReimbursementRepositoryjdbc:332 - 
+2018-03-26 14:36:51 TRACE ReimbursementRepositoryjdbc:91 - Getting statement object in select reimbursement
+2018-03-26 14:36:52 TRACE ReimbursementRepositoryjdbc:94 - parameters for selecting reimbursement set.
+2018-03-26 14:36:52 ERROR ReimbursementRepositoryjdbc:131 - Exception thrown while selecting reimbursement
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:112)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:332)
+2018-03-26 14:36:52 TRACE ReimbursementRepositoryjdbc:332 - 
+2018-03-26 14:44:55 TRACE ReimbursementRepositoryjdbc:91 - Getting statement object in select reimbursement
+2018-03-26 14:44:55 TRACE ReimbursementRepositoryjdbc:94 - parameters for selecting reimbursement set.
+2018-03-26 14:44:55 TRACE ReimbursementRepositoryjdbc:330 - Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=2018-03-19T15:01:02.069315, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]
+2018-03-26 14:45:43 TRACE ReimbursementRepositoryjdbc:91 - Getting statement object in select reimbursement
+2018-03-26 14:45:44 TRACE ReimbursementRepositoryjdbc:94 - parameters for selecting reimbursement set.
+2018-03-26 14:45:44 ERROR ReimbursementRepositoryjdbc:129 - Exception thrown while selecting reimbursement
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:1350)
+	at com.revature.repository.ReimbursementRepositoryjdbc.select(ReimbursementRepositoryjdbc.java:113)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:330)
+2018-03-26 14:45:44 TRACE ReimbursementRepositoryjdbc:330 - 
+2018-03-26 14:48:54 TRACE ReimbursementRepositoryjdbc:91 - Getting statement object in select reimbursement
+2018-03-26 14:48:54 TRACE ReimbursementRepositoryjdbc:94 - parameters for selecting reimbursement set.
+2018-03-26 14:48:54 TRACE ReimbursementRepositoryjdbc:322 - Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=2018-03-19T15:01:02.069315, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]
+2018-03-26 14:50:34 TRACE ReimbursementRepositoryjdbc:91 - Getting statement object in select reimbursement
+2018-03-26 14:50:35 TRACE ReimbursementRepositoryjdbc:94 - parameters for selecting reimbursement set.
+2018-03-26 14:50:35 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-26 14:50:35 TRACE ReimbursementRepositoryjdbc:322 - Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=2018-03-19T15:01:02.069315, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]

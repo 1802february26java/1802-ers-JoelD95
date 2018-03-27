@@ -40,9 +40,32 @@ public class EmployeeToken implements Serializable {
 	 * FOREIGN KEY coming from EMPLOYEE which represents the requester.
 	 */
 	private Employee requester;
-
-	public EmployeeToken() {}
 	
+	private int requesterID;
+	
+	private String time;
+	public EmployeeToken() {}
+	public EmployeeToken(int id) {
+		this.id = id;
+	}
+	public EmployeeToken(int id, String token, String time, int requesterID) {
+		this.id = id;
+		this.token = token;
+		this.time = time;
+		this.requesterID = requesterID;
+	}
+	public String getTime() {
+		return time;
+	}
+	public void setTime(String time) {
+		this.time = time;
+	}
+	public int getRequesterID() {
+		return requesterID;
+	}
+	public void setRequesterID(int requesterID) {
+		this.requesterID = requesterID;
+	}
 	public EmployeeToken(int id, String token, LocalDateTime creationDate, Employee requester) {
 		this.id = id;
 		this.token = token;
