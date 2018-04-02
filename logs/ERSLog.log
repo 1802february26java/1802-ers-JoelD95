@@ -890,3 +890,193 @@ java.sql.SQLException: Invalid column name
 2018-03-26 14:50:35 TRACE ReimbursementRepositoryjdbc:94 - parameters for selecting reimbursement set.
 2018-03-26 14:50:35 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
 2018-03-26 14:50:35 TRACE ReimbursementRepositoryjdbc:322 - Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=2018-03-19T15:01:02.069315, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]
+2018-03-27 20:11:30 TRACE ReimbursementRepositoryjdbc:92 - Getting statement object in select reimbursement
+2018-03-27 20:11:30 TRACE ReimbursementRepositoryjdbc:95 - parameters for selecting reimbursement set.
+2018-03-27 20:11:30 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-27 20:11:30 TRACE ReimbursementRepositoryjdbc:323 - Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=2018-03-19T15:01:02.069315, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]
+2018-03-27 20:11:31 TRACE ReimbursementRepositoryjdbc:138 - Getting statement object in select pending from certain user.
+2018-03-27 20:11:31 TRACE ReimbursementRepositoryjdbc:142 - parameters for selecting pending reimbursements from a certain user.
+2018-03-27 20:11:31 TRACE ReimbursementRepositoryjdbc:325 - []
+2018-03-27 20:11:45 TRACE ReimbursementRepositoryjdbc:92 - Getting statement object in select reimbursement
+2018-03-27 20:11:45 TRACE ReimbursementRepositoryjdbc:95 - parameters for selecting reimbursement set.
+2018-03-27 20:11:46 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-27 20:11:46 TRACE ReimbursementRepositoryjdbc:323 - Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=2018-03-19T15:01:02.069315, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]
+2018-03-27 20:11:46 TRACE ReimbursementRepositoryjdbc:138 - Getting statement object in select pending from certain user.
+2018-03-27 20:11:46 TRACE ReimbursementRepositoryjdbc:142 - parameters for selecting pending reimbursements from a certain user.
+2018-03-27 20:11:47 TRACE ReimbursementRepositoryjdbc:325 - []
+2018-03-27 20:11:55 TRACE ReimbursementRepositoryjdbc:92 - Getting statement object in select reimbursement
+2018-03-27 20:11:55 TRACE ReimbursementRepositoryjdbc:95 - parameters for selecting reimbursement set.
+2018-03-27 20:11:56 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-27 20:11:56 TRACE ReimbursementRepositoryjdbc:323 - Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=2018-03-19T15:01:02.069315, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]
+2018-03-27 20:11:56 TRACE ReimbursementRepositoryjdbc:138 - Getting statement object in select pending from certain user.
+2018-03-27 20:11:56 TRACE ReimbursementRepositoryjdbc:142 - parameters for selecting pending reimbursements from a certain user.
+2018-03-27 20:11:56 TRACE ReimbursementRepositoryjdbc:325 - []
+2018-03-27 20:13:23 TRACE ReimbursementRepositoryjdbc:138 - Getting statement object in select pending from certain user.
+2018-03-27 20:13:23 TRACE ReimbursementRepositoryjdbc:142 - parameters for selecting pending reimbursements from a certain user.
+2018-03-27 20:13:24 TRACE ReimbursementRepositoryjdbc:325 - [Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=null, amount=55.0, description=testing my method, requester=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-27 20:21:51 TRACE ReimbursementRepositoryjdbc:138 - Getting statement object in select pending from certain user.
+2018-03-27 20:21:51 TRACE ReimbursementRepositoryjdbc:142 - parameters for selecting pending reimbursements from a certain user.
+2018-03-27 20:21:52 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-27 20:21:52 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-27 20:21:53 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-27 20:21:53 TRACE ReimbursementRepositoryjdbc:333 - [Reimbursement [id=4, requested=2018-03-19T13:42:04.605426, resolved=null, amount=55.0, description=testing my method, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-27 20:25:49 TRACE ReimbursementRepositoryjdbc:138 - Getting statement object in select pending from certain user.
+2018-03-27 20:25:49 TRACE ReimbursementRepositoryjdbc:142 - parameters for selecting pending reimbursements from a certain user.
+2018-03-27 20:25:49 ERROR ReimbursementRepositoryjdbc:166 - Exception thrown while selecting pending reimbursements from a certain user
+java.sql.SQLSyntaxErrorException: ORA-00918: column ambiguously defined
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.ReimbursementRepositoryjdbc.selectPending(ReimbursementRepositoryjdbc.java:143)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:333)
+2018-03-27 20:25:49 TRACE ReimbursementRepositoryjdbc:333 - 
+2018-03-27 20:28:37 TRACE ReimbursementRepositoryjdbc:138 - Getting statement object in select pending from certain user.
+2018-03-27 20:28:37 TRACE ReimbursementRepositoryjdbc:142 - parameters for selecting pending reimbursements from a certain user.
+2018-03-27 20:28:37 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-27 20:28:38 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-27 20:28:38 TRACE ReimbursementRepositoryjdbc:333 - [Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-28 12:47:41 TRACE ReimbursementRepositoryjdbc:138 - Getting statement object in select pending from certain user.
+2018-03-28 12:47:41 TRACE ReimbursementRepositoryjdbc:142 - parameters for selecting pending reimbursements from a certain user.
+2018-03-28 12:47:42 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-28 12:47:42 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-28 12:47:42 TRACE ReimbursementRepositoryjdbc:333 - [Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-28 15:25:54 TRACE ReimbursementRepositoryjdbc:138 - Getting statement object in select pending from certain user.
+2018-03-28 15:25:54 TRACE ReimbursementRepositoryjdbc:142 - parameters for selecting pending reimbursements from a certain user.
+2018-03-28 15:25:54 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-28 15:25:55 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-28 15:25:55 TRACE ReimbursementRepositoryjdbc:333 - [Reimbursement [id=2, requested=2018-03-18T20:21:20.006350, resolved=null, amount=1000.0, description=Just testing, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=1, requested=2018-03-18T20:13:15.026069, resolved=null, amount=100.0, description=Just testing, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-29 11:23:50 TRACE ReimbursementRepositoryjdbc:40 - Getting statement object in insert reimbursement
+2018-03-29 11:23:50 ERROR ReimbursementRepositoryjdbc:57 - Exception thrown while inserting new reimbursement
+java.sql.SQLException: Invalid column index
+	at oracle.jdbc.driver.OraclePreparedStatement.setIntInternal(OraclePreparedStatement.java:5223)
+	at oracle.jdbc.driver.OraclePreparedStatement.setInt(OraclePreparedStatement.java:5210)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setInt(OraclePreparedStatementWrapper.java:209)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:48)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:332)
+2018-03-29 11:23:50 TRACE ReimbursementRepositoryjdbc:332 - false
+2018-03-29 11:24:58 TRACE ReimbursementRepositoryjdbc:40 - Getting statement object in insert reimbursement
+2018-03-29 11:24:58 TRACE ReimbursementRepositoryjdbc:49 - parameters for insertion of reimbursement set.
+2018-03-29 11:24:58 ERROR ReimbursementRepositoryjdbc:57 - Exception thrown while inserting new reimbursement
+java.sql.SQLSyntaxErrorException: ORA-00904: "R_APPROVER": invalid identifier
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:50)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:332)
+2018-03-29 11:24:58 TRACE ReimbursementRepositoryjdbc:332 - false
+2018-03-29 11:25:42 TRACE ReimbursementRepositoryjdbc:40 - Getting statement object in insert reimbursement
+2018-03-29 11:26:36 TRACE ReimbursementRepositoryjdbc:40 - Getting statement object in insert reimbursement
+2018-03-29 11:26:36 TRACE ReimbursementRepositoryjdbc:49 - parameters for insertion of reimbursement set.
+2018-03-29 11:26:36 TRACE ReimbursementRepositoryjdbc:332 - true
+2018-03-29 11:44:51 TRACE ReimbursementRepositoryjdbc:40 - Getting statement object in insert reimbursement
+2018-03-29 11:44:51 TRACE ReimbursementRepositoryjdbc:49 - parameters for insertion of reimbursement set.
+2018-03-29 11:44:52 ERROR ReimbursementRepositoryjdbc:57 - Exception thrown while inserting new reimbursement
+java.sql.SQLIntegrityConstraintViolationException: ORA-00001: unique constraint (ERS_DB.PK_REIMBURSEMENT) violated
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.ReimbursementRepositoryjdbc.insert(ReimbursementRepositoryjdbc.java:50)
+	at com.revature.repository.ReimbursementRepositoryjdbc.main(ReimbursementRepositoryjdbc.java:332)
+2018-03-29 11:44:52 TRACE ReimbursementRepositoryjdbc:332 - false
+2018-03-29 12:02:08 TRACE ReimbursementRepositoryjdbc:40 - Getting statement object in insert reimbursement
+2018-03-29 12:02:08 TRACE ReimbursementRepositoryjdbc:49 - parameters for insertion of reimbursement set.
+2018-03-29 12:02:09 TRACE ReimbursementRepositoryjdbc:332 - true
+2018-03-29 12:47:16 TRACE ReimbursementRepositoryjdbc:92 - Getting statement object in select reimbursement
+2018-03-29 12:47:16 TRACE ReimbursementRepositoryjdbc:95 - parameters for selecting reimbursement set.
+2018-03-29 12:47:16 ERROR ReimbursementRepositoryjdbc:118 - problem
+2018-03-29 12:47:16 TRACE ReimbursementRepositoryjdbc:330 - 
+2018-03-29 12:48:07 TRACE ReimbursementRepositoryjdbc:92 - Getting statement object in select reimbursement
+2018-03-29 12:48:07 TRACE ReimbursementRepositoryjdbc:95 - parameters for selecting reimbursement set.
+2018-03-29 12:48:08 TRACE ReimbursementRepositoryjdbc:118 - problem
+2018-03-29 12:48:08 TRACE ReimbursementRepositoryjdbc:330 - 
+2018-03-29 12:49:19 TRACE ReimbursementRepositoryjdbc:92 - Getting statement object in select reimbursement
+2018-03-29 12:49:19 TRACE ReimbursementRepositoryjdbc:95 - parameters for selecting reimbursement set.
+2018-03-29 12:49:20 TRACE ReimbursementRepositoryjdbc:118 - problem
+2018-03-29 12:49:20 TRACE ReimbursementRepositoryjdbc:330 - 
+2018-03-29 12:54:27 TRACE ReimbursementRepositoryjdbc:93 - Getting statement object in select reimbursement
+2018-03-29 12:54:27 TRACE ReimbursementRepositoryjdbc:96 - parameters for selecting reimbursement set.
+2018-03-29 12:55:13 TRACE ReimbursementRepositoryjdbc:93 - Getting statement object in select reimbursement
+2018-03-29 12:55:13 TRACE ReimbursementRepositoryjdbc:96 - parameters for selecting reimbursement set.
+2018-03-29 12:55:13 TRACE EmployeeRepositoryjdbc:93 - Getting statement object in get user by userID
+2018-03-29 12:55:14 TRACE ReimbursementRepositoryjdbc:331 - Reimbursement [id=2, requested=2018-03-29T12:03:32.838728, resolved=null, amount=12345.0, description=Front End Test, requester=Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=null]], approver=Employee [id=0, firstName=Heater, lastName=ALAGNA, username=PALAGNAJR, password=CFE456D83392A087DAF9DF95D5E18366, email=PETER.ALAGNA@REVATURE.COM, userRole=EmployeeRole [id=1, type=EMPLOYEE]], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]
+2018-03-29 20:18:06 TRACE EmployeeRepositoryjdbc:149 - Getting statement object in get all users
+2018-03-29 20:18:06 ERROR EmployeeRepositoryjdbc:168 - Error while selecting all users
+2018-03-29 20:18:06 TRACE EmployeeRepositoryjdbc:343 - 
+2018-03-29 20:19:36 TRACE EmployeeRepositoryjdbc:149 - Getting statement object in get all users
+2018-03-29 20:19:37 ERROR EmployeeRepositoryjdbc:168 - Error while selecting all users
+java.sql.SQLException: Invalid column name
+	at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:3965)
+	at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:299)
+	at oracle.jdbc.driver.GeneratedResultSet.getString(GeneratedResultSet.java:1460)
+	at com.revature.repository.EmployeeRepositoryjdbc.selectAll(EmployeeRepositoryjdbc.java:163)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:343)
+2018-03-29 20:19:37 TRACE EmployeeRepositoryjdbc:343 - 
+2018-03-29 20:24:43 TRACE EmployeeRepositoryjdbc:149 - Getting statement object in get all users
+2018-03-29 20:24:43 ERROR EmployeeRepositoryjdbc:168 - Error while selecting all users
+java.sql.SQLSyntaxErrorException: ORA-00905: missing keyword
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:776)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:897)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1034)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3867)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeQuery(OraclePreparedStatementWrapper.java:1502)
+	at com.revature.repository.EmployeeRepositoryjdbc.selectAll(EmployeeRepositoryjdbc.java:151)
+	at com.revature.repository.EmployeeRepositoryjdbc.main(EmployeeRepositoryjdbc.java:343)
+2018-03-29 20:24:43 TRACE EmployeeRepositoryjdbc:343 - 
+2018-03-29 20:26:39 TRACE EmployeeRepositoryjdbc:149 - Getting statement object in get all users
+2018-03-29 20:26:39 TRACE EmployeeRepositoryjdbc:343 - [Employee [id=2, firstName=Joel, lastName=DeJesus, username=JoelD1995, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=joeldejesus1995@gmail.com, userRole=EmployeeRole [id=1, type=EMPLOYEE]], Employee [id=0, firstName=Heater, lastName=ALAGNA, username=PALAGNAJR, password=CFE456D83392A087DAF9DF95D5E18366, email=PETER.ALAGNA@REVATURE.COM, userRole=EmployeeRole [id=1, type=EMPLOYEE]], Employee [id=1, firstName=testing, lastName=mctest, username=JoelD95, password=E9FAEC92C2257DD98831453B8F5C8BE8, email=DATEST@GMAIL.COM, userRole=EmployeeRole [id=1, type=EMPLOYEE]], Employee [id=3, firstName=Dan, lastName=Smith, username=DannyS73, password=F8A2760EC4AD2FA416775CAC6724259E, email=danielsmith73@gmail.com, userRole=EmployeeRole [id=2, type=MANAGER]]]
+2018-03-31 15:02:09 TRACE ReimbursementRepositoryjdbc:217 - Getting statement object in select pending from all users.
+2018-03-31 15:02:09 TRACE ReimbursementRepositoryjdbc:220 - parameters for selecting pending reimbursements from all users.
+2018-03-31 15:02:09 TRACE ReimbursementRepositoryjdbc:329 - [Reimbursement [id=5, requested=2018-03-29T12:04:15.298101, resolved=null, amount=55000.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=TRAVELING]], Reimbursement [id=21, requested=2018-03-30T17:52:49.600608, resolved=null, amount=167.0, description=no approvel, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=3, requested=2018-03-29T12:03:52.139214, resolved=null, amount=6789.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=COURSE]], Reimbursement [id=6, requested=2018-03-29T12:56:33.782753, resolved=null, amount=4304.0, description=Front test , requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=2, requested=2018-03-29T12:03:32.838728, resolved=null, amount=12345.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-31 15:02:24 TRACE ReimbursementRepositoryjdbc:217 - Getting statement object in select pending from all users.
+2018-03-31 15:02:24 TRACE ReimbursementRepositoryjdbc:220 - parameters for selecting pending reimbursements from all users.
+2018-03-31 15:02:24 TRACE ReimbursementRepositoryjdbc:329 - [Reimbursement [id=5, requested=2018-03-29T12:04:15.298101, resolved=null, amount=55000.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=TRAVELING]], Reimbursement [id=21, requested=2018-03-30T17:52:49.600608, resolved=null, amount=167.0, description=no approvel, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=3, requested=2018-03-29T12:03:52.139214, resolved=null, amount=6789.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=COURSE]], Reimbursement [id=6, requested=2018-03-29T12:56:33.782753, resolved=null, amount=4304.0, description=Front test , requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=2, requested=2018-03-29T12:03:32.838728, resolved=null, amount=12345.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-03-31 15:02:26 TRACE ReimbursementRepositoryjdbc:217 - Getting statement object in select pending from all users.
+2018-03-31 15:02:27 TRACE ReimbursementRepositoryjdbc:220 - parameters for selecting pending reimbursements from all users.
+2018-03-31 15:02:27 TRACE ReimbursementRepositoryjdbc:329 - [Reimbursement [id=5, requested=2018-03-29T12:04:15.298101, resolved=null, amount=55000.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=TRAVELING]], Reimbursement [id=21, requested=2018-03-30T17:52:49.600608, resolved=null, amount=167.0, description=no approvel, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=3, requested=2018-03-29T12:03:52.139214, resolved=null, amount=6789.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=COURSE]], Reimbursement [id=6, requested=2018-03-29T12:56:33.782753, resolved=null, amount=4304.0, description=Front test , requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=2, requested=2018-03-29T12:03:32.838728, resolved=null, amount=12345.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=0, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=PENDING], type=ReimbursementType [id=0, type=OTHER]]]
+2018-04-01 01:22:51 TRACE ReimbursementRepositoryjdbc:260 - Getting statement object in select pending from certain user.
+2018-04-01 01:22:51 TRACE ReimbursementRepositoryjdbc:263 - parameters for selecting finalized reimbursements from a certain user.
+2018-04-01 01:22:51 TRACE ReimbursementRepositoryjdbc:337 - [Reimbursement [id=3, requested=2018-03-29T12:03:52.139214, resolved=2018-03-31T23:07:21.947895, amount=6789.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=DECLINED], type=ReimbursementType [id=0, type=COURSE]], Reimbursement [id=5, requested=2018-03-29T12:04:15.298101, resolved=2018-03-31T23:06:44.728936, amount=55000.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=DECLINED], type=ReimbursementType [id=0, type=TRAVELING]], Reimbursement [id=42, requested=2018-03-31T16:31:27.391730, resolved=2018-03-31T19:24:02.037904, amount=178.0, description=not on load, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=DECLINED], type=ReimbursementType [id=0, type=OTHER]], Reimbursement [id=21, requested=2018-03-30T17:52:49.600608, resolved=2018-03-31T23:13:37.789585, amount=167.0, description=no approvel, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=DECLINED], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=6, requested=2018-03-29T12:56:33.782753, resolved=2018-03-31T19:05:38.570120, amount=4304.0, description=Front test , requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=61, requested=2018-03-31T21:38:21.045078, resolved=2018-03-31T23:09:17.333389, amount=12356.0, description=is this weird?, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=DECLINED], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=41, requested=2018-03-31T16:29:43.527631, resolved=2018-03-31T23:04:41.007335, amount=190.0, description=on load, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=DECLINED], type=ReimbursementType [id=0, type=COURSE]], Reimbursement [id=4, requested=2018-03-29T12:04:03.579661, resolved=2018-03-30T11:46:37.037176, amount=16723.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=CERTIFICATION]], Reimbursement [id=2, requested=2018-03-29T12:03:32.838728, resolved=2018-03-31T19:03:11.840242, amount=12345.0, description=Front End Test, requester=Employee [id=0, firstName=null, lastName=null, username=JoelD95, password=null, email=null, userRole=null], approver=Employee [id=3, firstName=null, lastName=null, username=null, password=null, email=null, userRole=null], status=ReimbursementStatus [id=0, status=APPROVED], type=ReimbursementType [id=0, type=OTHER]]]

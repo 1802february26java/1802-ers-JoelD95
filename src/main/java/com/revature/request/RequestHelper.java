@@ -59,6 +59,19 @@ public class RequestHelper {
 			return EmployeeInformationControllerAlpha.getInstance().updateEmployee(request);
 		case "/ERS/reimbursement.do":
 			return ReimbursementControllerAlpha.getInstance().singleRequest(request);
+		case "/ERS/getAllUserPending.do":
+		case "/ERS/getAllUserFinalized.do":
+			return ReimbursementControllerAlpha.getInstance().multipleRequests(request);
+		case"/ERS/submitReimbursement.do":
+			return ReimbursementControllerAlpha.getInstance().submitRequest(request);
+		case"/ERS/getAllEmployees.do":
+			return EmployeeInformationControllerAlpha.getInstance().viewAllEmployees(request);
+		case"/ERS/getSpecificEmployee.do":
+			return ReimbursementControllerAlpha.getInstance().singleRequest(request);
+		case"/ERS/getAllPending.do":
+			return ReimbursementControllerAlpha.getInstance().multipleRequests(request);
+		case"/ERS/getAllFinalized.do":
+			return ReimbursementControllerAlpha.getInstance().multipleRequests(request);
 		default:
 			return new ErrorControllerAlpha().showError(request);
 		}

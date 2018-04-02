@@ -20,6 +20,22 @@ a {
     width: 50%;
     margin: auto auto 10px;
 }
+.btn-block2{
+    width: 5%;
+    margin: auto auto 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+.btn-block3{
+    width: 50%;
+    margin: auto auto 10px;
+    right: 50%;
+    bottom: 50%;
+}
+.btn-invis{
+    opacity: 0;
+}
 
 .form-control {
     width: 50%;
@@ -27,8 +43,18 @@ a {
     text-align: center;
 }
 
-.panel-default .panel-heading {
+.panel-default{
+    opacity: 0.5;
+}
+.panel-default:hover{
+    opacity: 1;
+}
+.panel-heading {
     text-align: center;
+
+}
+.panel-color{
+     color:  rgb(48, 45, 45);
 }
 .label-center {
     display: block;
@@ -37,4 +63,15 @@ a {
  }
 .list-group-item{
     text-align: center;
+}
+.custom-class{
+    position: relative;
+    width: 60px; 
+    height: 20px; 
+    position: absolute; 
+    top: 55%; 
+    left: 43%; 
+    margin-left: -30px;
+     margin-top: -10px;
+    margin: auto auto 10px;
 }

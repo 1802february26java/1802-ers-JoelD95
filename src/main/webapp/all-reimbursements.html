@@ -45,6 +45,34 @@
             </div>
         </div>
     </nav>
-    <script src = "js/home.js"></script>
+
+    <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>Employees Info</h3>
+                </div>
+                <div id="reimbursementMessage"></div>
+               <!-- <ul id="reimbursementInfo" class = "list-group"></ul>-->
+               <table id="myTable"class="table table-condensed">
+                    
+                            <thead>
+                                    <tr id="tableHead">
+                                      
+                                    </tr>
+                                  </thead>
+                                  <tbody id="reimbursementTable">
+        
+                                  </tbody>
+                       
+               </table>
+                <button id="checkPending" class="btn btn-md btn-success btn-block">Pending</button>
+                <button id="checkFinalized" class="btn btn-md btn-success btn-block">Finalized</button>
+                <button id="scroll" class = "btn btn-invis">Top</button>
+                <div class="panel-footer">
+                </div>
+            </div>
+        </div>
+    <script src = "js/manager-reimbursement.js"></script>
+    <script src= "js/top.js"></script>
 </body>
 </html>

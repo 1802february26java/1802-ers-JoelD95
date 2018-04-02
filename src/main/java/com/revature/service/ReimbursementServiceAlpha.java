@@ -33,8 +33,9 @@ public class ReimbursementServiceAlpha implements ReimbursementService {
 
 	@Override
 	public Set<Reimbursement> getUserPendingRequests(Employee employee) {
-		Set<Reimbursement> reimbursements= ReimbursementRepositoryjdbc.getInstance().selectPending(employee.getId());
-		return reimbursements;
+		//Set<Reimbursement> reimbursements= ReimbursementRepositoryjdbc.getInstance().selectPending(employee.getId());
+		System.out.println("This is in service: "+ ReimbursementRepositoryjdbc.getInstance().selectPending(employee.getId()));
+		return ReimbursementRepositoryjdbc.getInstance().selectPending(employee.getId());
 	}
 
 	@Override

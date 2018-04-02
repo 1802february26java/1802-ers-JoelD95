@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Account</title>
+
+    <link rel="icon" href="images/customer.ico" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    
+    <!-- Boostrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="css/our.css" />
+</head>
+<style>
+        body  {
+            background-image: url("images/dark-room.png");
+            background-size: cover; 
+            background-color: black; 
+        }
+        </style>
+<body>
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="home.do" class="navbar-brand"><strong id= "username">Home</strong></a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>Operations</strong><span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="getAllEmployees.do">View All Employees</a></li>
+                                <li><a href="getSpecificEmployee.do">View an Employee's Reimbursements</a></li>
+                                <li><a href="getAllPending.do">Manage All Reimbursements</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="nav navbar-nav navbar-right">
+                        <a href="logout.do" class="navbar-brand"><strong><small>Logout</small></strong></a>
+                    </div>
+                </div>
+            </nav>
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3>User's Reimbursements</h3>
+            </div>
+            <div class="form-group">
+                <input id="userID" name="userID" placeholder="userID" class="form-control" />
+            </div>
+            <div id="reimbursementMessage"></div>
+            <p id="reimbursementInfo"></p>
+            <table id="myTable"class="table table-condensed">
+                    
+                    <thead>
+                            <tr id="tableHead">
+                              
+                            </tr>
+                          </thead>
+                          <tbody id="reimbursementTable">
+
+                          </tbody>
+               
+       </table>
+            <p id="checkPending"></p>
+            <p id="checkFinalized"></p>
+            <p id="checkID"></p>
+            <button id="checkAllUserPending" class="btn btn-md btn-info btn-block">Look Up Pending Reimbursement</button>
+            <button id="checkAllUserFinalized" class="btn btn-md btn-info btn-block">Look Up Finalized Reimbursement</button>
+            <div class="panel-footer">
+            </div>
+            <button id="scroll" class = "btn btn-invis">Top</button>
+        </div>
+    </div>
+    <script src = "js/manager-reimbursement.js"></script>
+    <script src="js/top.js"></script>
+
+</body>
+</html>

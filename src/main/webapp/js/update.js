@@ -1,5 +1,4 @@
 window.onload = () => {
-    //Get Event Listener
     document.getElementById("submit").addEventListener("click", submitUpdate);
 
 
@@ -12,22 +11,21 @@ function submitUpdate(){
     xhr.onreadystatechange = () => {
         if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
 
-            //let data2 = JSON.parse(xhr.responseText);
+            let data2 = JSON.parse(xhr.responseText);
 
-            presentMyUpdatedInfo();
+            presentMyUpdatedInfo(data2);
         }
     };
-
-    //Doing a HTTP to a specific endpoint
-    console.log("posting");
     xhr.open("POST",`update.do?firstName=${firstName}&lastName=${lastName}&email=${email}`);
 
-    //Sending our request
     xhr.send();
 }
 }
-function presentMyUpdatedInfo(){
-  
-
+function presentMyUpdatedInfo(data2){
+    if(data2.message){
+        document.getElementById("updateMessage").innerHTML = '<span class="label label-danger label-center"> Please input all Fields.</span>';
+        }
+        else
         window.location.replace("myAccount.do");
+        window.setTimeout(function(){window.location.replace("myAccount.do")},3000);
 }

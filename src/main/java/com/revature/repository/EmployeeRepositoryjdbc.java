@@ -61,14 +61,12 @@ public class EmployeeRepositoryjdbc implements EmployeeRepository {
 	public boolean update(Employee employee) {
 		try(Connection connection = ConnectionUtil.getConnection()){
 			int parameterIndex = 0;
-			String sql = "UPDATE USER_T SET U_FIRSTNAME = ?, U_LASTNAME = ?, U_USERNAME = ?, U_EMAIL = ?, UR_ID = ? WHERE U_ID = ?";
+			String sql = "UPDATE USER_T SET U_FIRSTNAME = ?, U_LASTNAME = ?, U_EMAIL = ? WHERE U_ID = ?";
 			logger.trace("Getting statement object in update Employee");
 			PreparedStatement statement = connection.prepareStatement(sql);
 			statement.setString(++parameterIndex, employee.getFirstName());
 			statement.setString(++parameterIndex, employee.getLastName());
-			statement.setString(++parameterIndex, employee.getUsername());
 			statement.setString(++parameterIndex, employee.getEmail());
-			statement.setInt(++parameterIndex, employee.getEmployeeRole().getId());
 			statement.setInt(++parameterIndex, employee.getId());
 			logger.trace("parameters for updating an employee.");
 			if(statement.executeUpdate() != 0) {
@@ -145,7 +143,7 @@ public class EmployeeRepositoryjdbc implements EmployeeRepository {
 	@Override
 	public Set<Employee> selectAll() {
 		try(Connection connection = ConnectionUtil.getConnection()){
-			String sql = "SELECT * FROM USER_T";
+			String sql = "SELECT * FROM USER_T INNER JOIN USER_ROLE ON USER_ROLE.UR_ID=USER_T.UR_ID ORDER BY USER_T.U_ID";
 			logger.trace("Getting statement object in get all users");
 			PreparedStatement statement = connection.prepareStatement(sql);
 			ResultSet result= statement.executeQuery();
@@ -165,7 +163,7 @@ public class EmployeeRepositoryjdbc implements EmployeeRepository {
 			}
 			return set;
 		}catch (SQLException e) {
-			logger.error("Error while selecting all users");
+			logger.error("Error while selecting all users",e);
 		}
 		return null;
 	}
@@ -328,7 +326,7 @@ public class EmployeeRepositoryjdbc implements EmployeeRepository {
 	}
 	
 	public static void main(String[] args) {
-//		EmployeeRepository repository = new EmployeeRepositoryjdbc();
+		EmployeeRepository repository = new EmployeeRepositoryjdbc();
 //		Employee employee = new Employee(0);
 //		Employee employee2 = new Employee();
 //		EmployeeRole role = new EmployeeRole(1,"employee");
@@ -340,7 +338,7 @@ public class EmployeeRepositoryjdbc implements EmployeeRepository {
 //		employee2.setEmail("joeldejesus95@gmail.com");
 //		employee2.setEmployeeRole(role);
 		
-//		logger.trace(employee2.getEmployeeRole());
+		logger.trace(repository.selectAll());
 	}
 
 
